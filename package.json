@@ -1,0 +1,22 @@
+{
+  "name": "shopsense-api",
+  "version": "1.0.0",
+  "description": "API for ShopSense price aggregator",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.13.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.17.1",
+    "mongoose": "^8.20.1",
+    "multer": "^2.0.2",
+    "node-cache": "^5.1.2",
+    "puppeteer": "^24.31.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
